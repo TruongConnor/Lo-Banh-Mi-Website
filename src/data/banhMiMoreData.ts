@@ -536,7 +536,7 @@ export const BANH_MI_MORE_MENU: Record<string, MenuItemData[]> = {
       price: 4.50,
       description: 'Slow-dripped dark roast Vietnamese coffee combined with sweet creamy condensed milk over crushed ice.',
       popular: true,
-      image: '/banhmimore/img2.44f41f59.png',
+      image: '/preview-coffee.jpg',
     },
     {
       id: 'cof-black',
@@ -718,7 +718,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Sandwiches',
     price: 5.50,
     description: 'Crusty deck-oven baguette with savory glazed pork meatballs, cucumber, cilantro, and crunchy pickled carrots.',
-    image: '/banhmimore/m2.9320748d.jpg',
+    image: '/preview-sandwiches.jpg',
   },
   {
     id: 'feat-thit-nuong',
@@ -736,7 +736,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Bakery Goods',
     price: 2.50,
     description: 'Hot flaky golden French-Vietnamese puff pastry stuffed with fragrant seasoned pork and shallots.',
-    image: '/banhmimore/m2.9320748d.jpg',
+    image: '/preview-pateso.jpg',
   },
   {
     id: 'feat-baguette',
@@ -745,7 +745,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Plain Bread',
     price: 1.75,
     description: 'Baked fresh continuously starting at 7:00 AM. Incredibly light, crisp, and airy honeycomb crumb.',
-    image: '/banhmimore/m1.5e8b921d.jpg',
+    image: '/preview-baguettes.jpg',
   },
   {
     id: 'feat-cafe-sua-da',
@@ -754,7 +754,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Coffee',
     price: 4.50,
     description: 'Authentic slow-dripped Vietnamese dark roast with sweetened condensed milk over crushed ice.',
-    image: '/banhmimore/img2.44f41f59.png',
+    image: '/preview-coffee.jpg',
   },
   {
     id: 'feat-chocolate-croissant',
@@ -763,7 +763,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Bakery Croissants',
     price: 2.95,
     description: 'Buttery flaky French pastry rolled with luscious rich semi-sweet chocolate.',
-    image: '/banhmimore/m3.1e99dd53.jpg',
+    image: '/preview-croissants.jpg',
   },
   {
     id: 'feat-banh-bao',
@@ -772,7 +772,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Bakery Goods',
     price: 2.95,
     description: 'Fluffy steamed bun filled with pork, Chinese sausage, wood ear mushrooms, and savory quail egg.',
-    image: '/banhmimore/m2.9320748d.jpg',
+    image: '/preview-pateso.jpg',
   },
   {
     id: 'feat-thai-tea',
@@ -781,6 +781,6 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
     category: 'Drinks',
     price: 4.00,
     description: 'Brewed aromatic spiced black tea with rich sweet condensed milk and cream.',
-    image: '/banhmimore/img2.44f41f59.png',
+    image: '/preview-coffee.jpg',
   },
 ];
