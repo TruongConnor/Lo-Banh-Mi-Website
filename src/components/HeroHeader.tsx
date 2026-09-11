@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Sparkles } from 'lucide-react';
+import { MapPin, Phone, Sparkles, ArrowRight } from 'lucide-react';
 import { LoBanhMiLogo } from './LoBanhMiLogo';
 import { PhotoUploadSlot } from './PhotoUploadSlot';
 import { ScrollReveal } from './ScrollReveal';
@@ -65,11 +65,7 @@ export const HeroHeader: React.FC<HeroHeaderProps> = ({ onOpenMenu }) => {
                 >
                   <MapPin className="w-4 h-4 text-slate-300" />
                   <span className="font-medium text-white text-sm sm:text-base">Visit Our Bakery</span>
-                  <img
-                    src={resolveAssetUrl('banhmimore/arrow.aea40498.svg')}
-                    alt="Arrow"
-                    className="arrow-icon w-6 h-6 sm:w-8 sm:h-8 min-w-6 min-h-6 object-contain"
-                  />
+                  <ArrowRight className="w-4 h-4 text-white/80 group-hover:translate-x-1 transition-transform" />
                 </a>
 
                 {/* View Menu CTA */}
