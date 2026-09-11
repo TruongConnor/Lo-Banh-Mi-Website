@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Gotu', serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #ffffff;
+    color: #0b192e;
+  }
+
+  h1, h2, h3, h4, h5, .font-gotu {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom Navy and White button */
+.main-btn {
+  background: #0b192e;
+  color: #ffffff;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 10px 10px 22px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(11, 25, 46, 0.2);
+}
+
+.main-btn:hover {
+  transform: scale(0.97);
+  background: #15294a;
+  box-shadow: 0 6px 20px rgba(11, 25, 46, 0.3);
+}
+
+.main-btn .arrow-icon {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.main-btn:hover .arrow-icon {
+  transform: scale(1.15) rotate(10deg);
+}
+
+.main-btn.light {
+  background: #ffffff;
+  color: #0b192e;
+  border: 1px solid rgba(11, 25, 46, 0.15);
+  box-shadow: 0 2px 8px rgba(11, 25, 46, 0.05);
+}
+
+.main-btn.light:hover {
+  background: #ffffff;
+  border-color: #64748b;
+}
+
+.main-btn.light span {
+  color: #0b192e;
+}
+
+/* Sub-heading */
+.sub-head {
+  color: #64748b;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Section Head */
+.sec-head {
+  font-size: clamp(28px, 4.5vw, 48px);
+  color: #0b192e;
+  line-height: 1.18;
+  font-weight: 400;
+}
+
+/* Dashed connecting line */
+.sec-dashed-line {
+  border-bottom: 2px dashed rgba(11, 25, 46, 0.2);
+}
+
+/* Menu dotted/dashed leader line */
+.menu-leader-line {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.28);
+}
+
+/* Continuous Carousel Animation */
+@keyframes infinite-slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-slide {
+  display: flex;
+  width: max-content;
+  animation: infinite-slide 30s linear infinite;
+}
+
+.animate-infinite-slide:hover {
+  animation-play-state: paused;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #0b192e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+

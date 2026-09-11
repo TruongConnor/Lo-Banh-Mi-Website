@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320" fill="none">
+  <!--
+    Lò Bánh Mì - Compact Bakery Doodle Pattern
+    Featuring: Bánh Mì baguettes, Pâté Sô (pâté chaud), Bánh Tiêu (sesame donuts), Croissants,
+    Vietnamese Iced Coffee (cà phê sữa đá & phin), Bakery sleeves, and artisan details.
+    Color: Refined neutral warm-slate line art, matching the classic cafe watermark pattern.
+  -->
+  <g stroke="#8c8275" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.55">
+
+    <!-- ========================================== -->
+    <!-- ROW 1                                      -->
+    <!-- ========================================== -->
+
+    <!-- 1. BÁNH MÌ BAGUETTE (Top Left) -->
+    <g transform="translate(15, 20) rotate(-16)">
+      <!-- Loaf outline -->
+      <path d="M 4,14 C 14,2 45,-2 72,6 C 88,11 96,18 92,24 C 82,32 50,35 22,28 C 6,24 -2,19 4,14 Z" fill="#ffffff" fill-opacity="0.4" />
+      <!-- Slit scores -->
+      <path d="M 22,12 Q 28,18 25,24" />
+      <path d="M 42,10 Q 48,16 45,23" />
+      <path d="M 62,11 Q 68,17 65,23" />
+      <path d="M 78,14 Q 82,19 80,24" />
+    </g>
+
+    <!-- 2. PÂTÉ SÔ / PÂTÉ CHAUD (Top Center-Left) -->
+    <g transform="translate(125, 22)">
+      <!-- Scalloped crust rim -->
+      <circle cx="22" cy="22" r="20" fill="#ffffff" fill-opacity="0.4" />
+      <circle cx="22" cy="22" r="15" stroke-dasharray="3 3" />
+      <!-- Puffed center dome -->
+      <ellipse cx="22" cy="21" rx="10" ry="9" fill="#ffffff" fill-opacity="0.5" />
+      <!-- Top fork steam cuts -->
+      <line x1="22" y1="15" x2="22" y2="19" />
+      <line x1="17" y1="17" x2="19" y2="21" />
+      <line x1="27" y1="17" x2="25" y2="21" />
+      <!-- Little crust crimps -->
+      <line x1="22" y1="2" x2="22" y2="6" />
+      <line x1="22" y1="38" x2="22" y2="42" />
+      <line x1="2" y1="22" x2="6" y2="22" />
+      <line x1="38" y1="22" x2="42" y2="22" />
+    </g>
+
+    <!-- 3. CÀ PHÊ SỮA ĐÁ (Top Center-Right) -->
+    <g transform="translate(210, 15)">
+      <!-- Glass tumbler -->
+      <path d="M 6,12 L 9,48 C 9.5,52 13,54 18,54 C 23,54 26.5,52 27,48 L 30,12 Z" fill="#ffffff" fill-opacity="0.4" />
+      <!-- Condensed milk layer -->
+      <path d="M 9.5,42 L 10,48 C 10.5,51 13.5,53 18,53 C 22.5,53 25.5,51 26,48 L 26.5,42 Z" fill="#ffffff" fill-opacity="0.6" />
+      <!-- Coffee line -->
+      <line x1="7" y1="18" x2="29" y2="18" />
+      <!-- Ice cubes inside -->
+      <rect x="11" y="22" width="6" height="6" rx="1" transform="rotate(10 14 25)" />
+      <rect x="18" y="27" width="6" height="6" rx="1" transform="rotate(-8 21 30)" />
+      <rect x="12" y="34" width="6" height="6" rx="1" transform="rotate(12 15 37)" />
+      <!-- Straw -->
+      <line x1="21" y1="3" x2="16" y2="45" stroke-width="2" />
+    </g>
+
+    <!-- 4. BÁNH TIÊU (Top Right) -->
+    <g transform="translate(290, 22)">
+      <!-- Puffed circular donut -->
+      <ellipse cx="22" cy="20" rx="21" ry="18" fill="#ffffff" fill-opacity="0.4" />
+      <ellipse cx="21" cy="19" rx="15" ry="12" stroke-dasharray="2 3" opacity="0.6" />
+      <!-- Scattered sesame seeds -->
+      <g stroke="none" fill="#8c8275">
+        <ellipse cx="12" cy="14" rx="1.5" ry="0.8" transform="rotate(20 12 14)" />
+        <ellipse cx="20" cy="11" rx="1.5" ry="0.8" transform="rotate(-15 20 11)" />
+        <ellipse cx="28" cy="13" rx="1.5" ry="0.8" transform="rotate(35 28 13)" />
+        <ellipse cx="16" cy="20" rx="1.5" ry="0.8" transform="rotate(5 16 20)" />
+        <ellipse cx="24" cy="21" rx="1.5" ry="0.8" transform="rotate(-25 24 21)" />
+        <ellipse cx="31" cy="22" rx="1.5" ry="0.8" transform="rotate(15 31 22)" />
+        <ellipse cx="13" cy="25" rx="1.5" ry="0.8" transform="rotate(-30 13 25)" />
+        <ellipse cx="21" cy="27" rx="1.5" ry="0.8" transform="rotate(10 21 27)" />
+      </g>
+    </g>
+
+
+    <!-- ========================================== -->
+    <!-- ROW 2 (Staggered)                          -->
+    <!-- ========================================== -->
+
+    <!-- 5. CROISSANT (Row 2, Left) -->
+    <g transform="translate(60, 95) rotate(14)">
+      <!-- Main crescent arc -->
+      <path d="M 6,32 C 10,14 26,8 40,8 C 54,8 70,14 74,32 C 64,28 50,26 40,26 C 30,26 16,28 6,32 Z" fill="#ffffff" fill-opacity="0.4" />
+      <!-- Layered flakiness segments -->
+      <path d="M 22,12 Q 28,22 25,30" />
+      <path d="M 36,9 Q 40,20 38,30" />
+      <path d="M 50,10 Q 52,21 48,30" />
+      <!-- Horn tips -->
+      <path d="M 6,32 Q 2,36 1,40 Q 6,38 10,35" />
+      <path d="M 74,32 Q 78,36 79,40 Q 74,38 70,35" />
+    </g>
+
+    <!-- 6. PREPARED BÁNH MÌ SANDWICH (Row 2, Center) -->
+    <g transform="translate(150, 100) rotate(-6)">
+      <!-- Top crust -->
+      <path d="M 2,16 C 10,4 35,0 60,6 C 75,10 82,16 78,21 C 70,26 45,28 20,24 C 6,21 -1,18 2,16 Z" fill="#ffffff" fill-opacity="0.4" />
+      <path d="M 18,12 Q 24,16 22,21" />
+      <path d="M 36,9 Q 42,14 40,20" />
+      <path d="M 54,10 Q 60,15 57,21" />
+      <!-- Fillings peeking out (cucumber, cilantro leaf, carrot shreds) -->
+      <ellipse cx="28" cy="24" rx="7" ry="3" stroke-width="1.2" />
+      <ellipse cx="44" cy="25" rx="7" ry="3" stroke-width="1.2" />
+      <!-- Cilantro leaf sprig -->
+      <path d="M 56,23 Q 63,19 66,22 Q 62,25 57,25" stroke-width="1.2" />
+      <!-- Bottom bread crust -->
+      <path d="M 6,24 C 20,30 45,31 72,25" />
+    </g>
+
+    <!-- 7. VIETNAMESE PHIN DRIP FILTER (Row 2, Right) -->
+    <g transform="translate(270, 92)">
+      <!-- Saucer base plate -->
+      <path d="M 4,28 L 40,28" stroke-width="2" />
+      <!-- Brew cup body -->
+      <path d="M 10,28 L 12,12 L 32,12 L 34,28 Z" fill="#ffffff" fill-opacity="0.4" />
+      <!-- Lid with top knob -->
+      <path d="M 9,12 L 35,12" stroke-width="1.8" />
+      <path d="M 12,12 L 14,8 L 30,8 L 32,12 Z" />
+      <circle cx="22" cy="6" r="2" fill="#8c8275" />
+      <!-- Dripping coffee droplets below filter -->
+      <circle cx="22" cy="34" r="1.5" fill="#8c8275" stroke="none" />
+      <circle cx="22" cy="40" r="1.5" fill="#8c8275" stroke="none" />
+    </g>
+
+
+    <!-- ========================================== -->
+    <!-- ROW 3                                      -->
+    <!-- ========================================== -->
+
+    <!-- 8. BÁNH TIÊU (Row 3, Left) -->
+    <g transform="translate(18, 175) rotate(-10)">
+      <ellipse cx="20" cy="18" rx="19" ry="16" fill="#ffffff" fill-opacity="0.4" />
+      <g stroke="none" fill="#8c8275">
+        <ellipse cx="11" cy="13" rx="1.5" ry="0.8" transform="rotate(20 11 13)" />
+        <ellipse cx="18" cy="10" rx="1.5" ry="0.8" transform="rotate(-15 18 10)" />
+        <ellipse cx="26" cy="12" rx="1.5" ry="0.8" transform="rotate(35 26 12)" />
+        <ellipse cx="15" cy="18" rx="1.5" ry="0.8" transform="rotate(5 15 18)" />
+        <ellipse cx="23" cy="19" rx="1.5" ry="0.8" transform="rotate(-25 23 19)" />
+        <ellipse cx="12" cy="23" rx="1.5" ry="0.8" transform="rotate(-30 12 23)" />
+        <ellipse cx="20" cy="25" rx="1.5" ry="0.8" transform="rotate(10 20 25)" />
+      </g>
+    </g>
+
+    <!-- 9. BAGUETTE IN PAPER SLEEVE (Row 3, Center-Left) -->
+    <g transform="translate(110, 168)">
+      <!-- Baguette top poking out -->
+      <path d="M 12,20 C 14,8 24,2 29,2 C 34,2 40,8 38,20" fill="#ffffff" fill-opacity="0.4" />
+      <path d="M 18,8 Q 23,12 21,17" />
+      <path d="M 27,9 Q 32,13 30,18" />
+      <!-- Paper sleeve bag -->
+      <path d="M 8,20 L 11,54 L 37,54 L 40,20 Z" fill="#ffffff" fill-opacity="0.3" />
+      <path d="M 8,20 Q 24,23 40,20" />
+      <!-- Wheat stalk stamp on paper bag -->
+      <line x1="24" y1="46" x2="24" y2="28" stroke-width="1.2" />
+      <path d="M 24,32 Q 20,30 21,27 Q 24,29 24,32" stroke-width="1" />
+      <path d="M 24,32 Q 28,30 27,27 Q 24,29 24,32" stroke-width="1" />
+      <path d="M 24,38 Q 20,36 21,33 Q 24,35 24,38" stroke-width="1" />
+      <path d="M 24,38 Q 28,36 27,33 Q 24,35 24,38" stroke-width="1" />
+    </g>
+
+    <!-- 10. PÂTÉ SÔ (Row 3, Center-Right) -->
+    <g transform="translate(195, 175) scale(0.95)">
+      <circle cx="22" cy="22" r="20" fill="#ffffff" fill-opacity="0.4" />
+      <circle cx="22" cy="22" r="15" stroke-dasharray="3 3" />
+      <ellipse cx="22" cy="21" rx="10" ry="9" fill="#ffffff" fill-opacity="0.5" />
+      <line x1="22" y1="15" x2="22" y2="19" />
+      <line x1="17" y1="17" x2="19" y2="21" />
+      <line x1="27" y1="17" x2="25" y2="21" />
+      <line x1="22" y1="2" x2="22" y2="6" />
+      <line x1="22" y1="38" x2="22" y2="42" />
+      <line x1="2" y1="22" x2="6" y2="22" />
+      <line x1="38" y1="22" x2="42" y2="22" />
+    </g>
+
+    <!-- 11. BÁNH MÌ BAGUETTE (Row 3, Right) -->
+    <g transform="translate(265, 185) rotate(16)">
+      <path d="M 4,14 C 14,2 45,-2 72,6 C 88,11 96,18 92,24 C 82,32 50,35 22,28 C 6,24 -2,19 4,14 Z" fill="#ffffff" fill-opacity="0.4" />
+      <path d="M 22,12 Q 28,18 25,24" />
+      <path d="M 42,10 Q 48,16 45,23" />
+      <path d="M 62,11 Q 68,17 65,23" />
+      <path d="M 78,14 Q 82,19 80,24" />
+    </g>
+
+
+    <!-- ========================================== -->
+    <!-- ROW 4 (Staggered)                          -->
+    <!-- ========================================== -->
+
+    <!-- 12. STEAMING HOT COFFEE MUG (Row 4, Left) -->
+    <g transform="translate(45, 255)">
+      <!-- Coffee mug cup -->
+      <path d="M 8,16 L 10,40 C 11,45 16,47 24,47 C 32,47 37,45 38,40 L 40,16 Z" fill="#ffffff" fill-opacity="0.4" />
+      <ellipse cx="24" cy="16" rx="16" ry="4" fill="#ffffff" fill-opacity="0.5" />
+      <!-- Handle -->
+      <path d="M 39,20 C 46,20 48,32 38,34" fill="none" stroke-width="1.8" />
+      <!-- Saucer plate -->
+      <path d="M 4,46 Q 24,52 44,46" stroke-width="1.8" />
+      <!-- Steam curls -->
+      <path d="M 18,10 Q 15,4 19,0" stroke-width="1.2" />
+      <path d="M 28,10 Q 25,4 29,0" stroke-width="1.2" />
+    </g>
+
+    <!-- 13. CROISSANT (Row 4, Center) -->
+    <g transform="translate(145, 250) rotate(-14)">
+      <path d="M 6,32 C 10,14 26,8 40,8 C 54,8 70,14 74,32 C 64,28 50,26 40,26 C 30,26 16,28 6,32 Z" fill="#ffffff" fill-opacity="0.4" />
+      <path d="M 22,12 Q 28,22 25,30" />
+      <path d="M 36,9 Q 40,20 38,30" />
+      <path d="M 50,10 Q 52,21 48,30" />
+      <path d="M 6,32 Q 2,36 1,40 Q 6,38 10,35" />
+      <path d="M 74,32 Q 78,36 79,40 Q 74,38 70,35" />
+    </g>
+
+    <!-- 14. BAKER'S ROLLING PIN & WHEAT (Row 4, Right) -->
+    <g transform="translate(255, 255)">
+      <!-- Rolling pin angled -->
+      <g transform="rotate(-28 30 20)">
+        <!-- Center cylinder -->
+        <rect x="14" y="14" width="32" height="12" rx="2" fill="#ffffff" fill-opacity="0.4" />
+        <!-- Handles -->
+        <line x1="6" y1="20" x2="14" y2="20" stroke-width="2.5" />
+        <line x1="46" y1="20" x2="54" y2="20" stroke-width="2.5" />
+      </g>
+      <!-- Crossed wheat ear -->
+      <g transform="translate(25, 2) rotate(22)" stroke-width="1.3">
+        <line x1="14" y1="38" x2="14" y2="8" />
+        <path d="M 14,14 Q 9,11 10,7 Q 14,10 14,14" />
+        <path d="M 14,14 Q 19,11 18,7 Q 14,10 14,14" />
+        <path d="M 14,22 Q 9,19 10,15 Q 14,18 14,22" />
+        <path d="M 14,22 Q 19,19 18,15 Q 14,18 14,22" />
+        <path d="M 14,30 Q 9,27 10,23 Q 14,26 14,30" />
+        <path d="M 14,30 Q 19,27 18,23 Q 14,26 14,30" />
+      </g>
+    </g>
+
+
+    <!-- ========================================== -->
+    <!-- COMPACT FILLER ACCENTS & MOTIFS            -->
+    <!-- (Filling gaps to give that cozy wallpaper  -->
+    <!-- doodle texture without any distraction)    -->
+    <!-- ========================================== -->
+
+    <!-- Coffee beans scattered in empty pockets -->
+    <!-- Bean 1 -->
+    <g transform="translate(95, 20) rotate(35)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 2 -->
+    <g transform="translate(185, 25) rotate(-20)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 3 -->
+    <g transform="translate(260, 48) rotate(45)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 4 -->
+    <g transform="translate(35, 135) rotate(-30)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 5 -->
+    <g transform="translate(245, 145) rotate(15)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 6 -->
+    <g transform="translate(335, 145) rotate(-40)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 7 -->
+    <g transform="translate(85, 225) rotate(25)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+    <!-- Bean 8 -->
+    <g transform="translate(170, 220) rotate(-15)" fill="#8c8275" stroke="none">
+      <ellipse cx="5" cy="5" rx="4" ry="2.8" />
+      <path d="M 2,5 Q 5,6 8,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    </g>
+
+    <!-- 4-point sparkle stars (✦) -->
+    <g stroke="none" fill="#8c8275" opacity="0.7">
+      <path d="M 75,70 Q 75,74 79,74 Q 75,74 75,78 Q 75,74 71,74 Q 75,74 75,70 Z" />
+      <path d="M 180,72 Q 180,76 184,76 Q 180,76 180,80 Q 180,76 176,76 Q 180,76 180,72 Z" />
+      <path d="M 255,10 Q 255,13 258,13 Q 255,13 255,16 Q 255,13 252,13 Q 255,13 255,10 Z" />
+      <path d="M 335,80 Q 335,84 339,84 Q 335,84 335,88 Q 335,84 331,84 Q 335,84 335,80 Z" />
+      <path d="M 70,165 Q 70,168 73,168 Q 70,168 70,171 Q 70,168 67,168 Q 70,168 70,165 Z" />
+      <path d="M 250,235 Q 250,238 253,238 Q 250,238 250,241 Q 250,238 247,238 Q 250,238 250,235 Z" />
+      <path d="M 125,295 Q 125,298 128,298 Q 125,298 125,301 Q 125,298 122,298 Q 125,298 125,295 Z" />
+      <path d="M 335,285 Q 335,288 338,288 Q 335,288 335,291 Q 335,288 332,288 Q 335,288 335,285 Z" />
+    </g>
+
+    <!-- Little plus symbols (+) -->
+    <g stroke="#8c8275" stroke-width="1.2" opacity="0.6">
+      <line x1="140" y1="78" x2="146" y2="78" /><line x1="143" y1="75" x2="143" y2="81" />
+      <line x1="225" y1="75" x2="231" y2="75" /><line x1="228" y1="72" x2="228" y2="78" />
+      <line x1="20" y1="95" x2="26" y2="95" /><line x1="23" y1="92" x2="23" y2="98" />
+      <line x1="310" y1="160" x2="316" y2="160" /><line x1="313" y1="157" x2="313" y2="163" />
+      <line x1="15" y1="235" x2="21" y2="235" /><line x1="18" y1="232" x2="18" y2="238" />
+      <line x1="220" y1="300" x2="226" y2="300" /><line x1="223" y1="297" x2="223" y2="303" />
+    </g>
+
+    <!-- Fine dots (crumbs / seeds) -->
+    <g stroke="none" fill="#8c8275" opacity="0.5">
+      <circle cx="50" cy="75" r="1.2" />
+      <circle cx="105" cy="85" r="1.2" />
+      <circle cx="205" cy="80" r="1.2" />
+      <circle cx="280" cy="70" r="1.2" />
+      <circle cx="345" cy="40" r="1.2" />
+      <circle cx="95" cy="150" r="1.2" />
+      <circle cx="170" cy="155" r="1.2" />
+      <circle cx="30" cy="305" r="1.2" />
+      <circle cx="100" cy="310" r="1.2" />
+      <circle cx="240" cy="270" r="1.2" />
+      <circle cx="340" cy="235" r="1.2" />
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Grid Dots Pattern -->
+    <pattern id="dot-grid" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="18" r="1.5" fill="#4a5f8a" opacity="0.35" />
+    </pattern>
+    <!-- Curved Path for Arch Text 'Lò Bánh Mì' -->
+    <path id="arch-path" d="M 65,225 A 200,165 0 0,1 435,225" fill="none" />
+  </defs>
+
+  <!-- Deep Navy Background -->
+  <rect width="500" height="500" rx="16" fill="#0b102b" />
+
+  <!-- Grid Dots Overlay -->
+  <rect width="500" height="500" rx="16" fill="url(#dot-grid)" />
+
+  <!-- Arched Title: Lò Bánh Mì -->
+  <text fill="#ffffff" font-family="'Gotu', 'Georgia', 'Playfair Display', serif" font-size="46" font-weight="700" letter-spacing="3">
+    <textPath href="#arch-path" startOffset="50%" text-anchor="middle">
+      Lò Bánh Mì
+    </textPath>
+  </text>
+
+  <!-- Baguettes Graphic -->
+  <g id="baguettes-group">
+    <!-- Upper / Back Baguette (angled) -->
+    <g transform="translate(230, 240) rotate(-14) translate(-110, -32)">
+      <!-- Loaf Body -->
+      <path d="M 25,32 C 25,12 60,4 110,4 C 160,4 195,12 195,32 C 195,52 160,60 110,60 C 60,60 25,52 25,32 Z" 
+            fill="#e57d18" stroke="#0b102b" stroke-width="4.5" stroke-linejoin="round" />
+      <!-- Crust Score Slashes -->
+      <path d="M 65,12 Q 72,32 78,50" stroke="#0b102b" stroke-width="4" stroke-linecap="round" fill="none" />
+      <path d="M 105,10 Q 112,32 118,52" stroke="#0b102b" stroke-width="4" stroke-linecap="round" fill="none" />
+      <path d="M 145,14 Q 152,32 158,48" stroke="#0b102b" stroke-width="4" stroke-linecap="round" fill="none" />
+    </g>
+
+    <!-- Front / Lower Baguette (horizontal, overlapping) -->
+    <g transform="translate(270, 272) rotate(2) translate(-125, -34)">
+      <!-- Loaf Body -->
+      <path d="M 25,34 C 25,12 65,3 125,3 C 185,3 225,12 225,34 C 225,56 185,65 125,65 C 65,65 25,56 25,34 Z" 
+            fill="#e57d18" stroke="#0b102b" stroke-width="5" stroke-linejoin="round" />
+      <!-- Crust Score Slashes -->
+      <path d="M 68,12 Q 76,34 82,54" stroke="#0b102b" stroke-width="4.5" stroke-linecap="round" fill="none" />
+      <path d="M 112,10 Q 120,34 126,56" stroke="#0b102b" stroke-width="4.5" stroke-linecap="round" fill="none" />
+      <path d="M 156,12 Q 164,34 170,54" stroke="#0b102b" stroke-width="4.5" stroke-linecap="round" fill="none" />
+      <path d="M 195,18 Q 200,34 204,48" stroke="#0b102b" stroke-width="4" stroke-linecap="round" fill="none" />
+    </g>
+  </g>
+
+  <!-- Clean Horizontal White Separator Line -->
+  <line x1="90" y1="326" x2="410" y2="326" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- Subtitle: French Bakery -->
+  <text x="250" y="382" text-anchor="middle" fill="#ffffff" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="400" letter-spacing="4">
+    French Bakery
+  </text>
+</svg>

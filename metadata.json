@@ -1,0 +1,6 @@
+{
+  "name": "Lo Banh Mi - French Bakery",
+  "description": "Lò Bánh Mì French Bakery — Authentic Vietnamese bánh mì sandwiches, deck-oven French baguettes, croissants, sweet breads, and traditional cà phê sữa đá in Arlington, TX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
