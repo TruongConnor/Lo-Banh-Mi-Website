@@ -84,7 +84,7 @@ const CATEGORY_TABS: CategoryTabMeta[] = [
     label: 'Pickled Veggies',
     vnLabel: 'Đồ Chua',
     icon: '🥕',
-    description: 'Crunchy sweet & tangy pickled daikon radish and carrots by the pound jar',
+    description: 'Crunchy sweet & tangy pickled daikon radish and carrots by the pound box',
   },
   {
     key: 'Miscellaneous',

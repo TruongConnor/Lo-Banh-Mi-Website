@@ -18,8 +18,30 @@ interface PhotoUploadSlotProps {
   compact?: boolean;
 }
 
+function getOnlineFallback(id: string): string {
+  const lowerId = id.toLowerCase();
+  if (lowerId.includes('baguette') || lowerId.includes('bread')) {
+    return 'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1000&q=80';
+  }
+  if (lowerId.includes('croissant')) {
+    return 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1000&q=80';
+  }
+  if (lowerId.includes('pate') || lowerId.includes('pastry') || lowerId.includes('bao')) {
+    return 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80';
+  }
+  if (lowerId.includes('coffee') || lowerId.includes('tea') || lowerId.includes('drink')) {
+    return 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80';
+  }
+  if (lowerId.includes('meat') || lowerId.includes('cha-lua')) {
+    return 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80';
+  }
+  return 'https://images.unsplash.com/photo-1626804475297-41608ea09aeb?auto=format&fit=crop&w=1000&q=80';
+}
+
 function getCategoryFallbackPhoto(id: string, initialImage?: string): string {
   if (PERMANENT_SLOT_PHOTOS[id]) return PERMANENT_SLOT_PHOTOS[id];
+  const cleanId = id.replace(/^lo_banh_mi_photo_/, '');
+  if (PERMANENT_SLOT_PHOTOS[cleanId]) return PERMANENT_SLOT_PHOTOS[cleanId];
   if (initialImage) return initialImage;
   const lowerId = id.toLowerCase();
   if (lowerId.includes('baguette') || lowerId.includes('pb-') || lowerId.includes('bread')) {
@@ -97,6 +119,11 @@ export const PhotoUploadSlot: React.FC<PhotoUploadSlotProps> = ({
             const fallback = getCategoryFallbackPhoto(id);
             if (currentSrc !== fallback) {
               setCurrentSrc(fallback);
+            } else {
+              const online = getOnlineFallback(id);
+              if (currentSrc !== online) {
+                setCurrentSrc(online);
+              }
             }
           }}
           className={`w-full h-full transition-transform duration-500 group-hover:scale-105 ${

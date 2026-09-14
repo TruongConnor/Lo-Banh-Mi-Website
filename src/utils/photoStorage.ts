@@ -125,7 +125,13 @@ export async function fetchServerPhotos(): Promise<Record<string, string>> {
     if (resStatic.ok) {
       const data = await resStatic.json();
       if (data && typeof data === 'object') {
-        serverPhotosCache = { ...serverPhotosCache, ...data };
+        const cleaned: Record<string, string> = {};
+        for (const [k, v] of Object.entries(data)) {
+          if (typeof v === 'string' && !v.includes('banhmimore')) {
+            cleaned[k] = v;
+          }
+        }
+        serverPhotosCache = { ...serverPhotosCache, ...cleaned };
         notifyPhotoUpdate();
       }
     }
@@ -220,7 +226,13 @@ export async function getPermanentPhoto(key: string): Promise<string | null> {
   // Check localStorage
   try {
     const cached = localStorage.getItem(key);
-    if (cached) return cached;
+    if (cached) {
+      if (cached.includes('banhmimore')) {
+        localStorage.removeItem(key);
+      } else {
+        return cached;
+      }
+    }
   } catch {
     // Ignore
   }
@@ -234,7 +246,13 @@ export async function getPermanentPhoto(key: string): Promise<string | null> {
       req.onsuccess = () => resolve(req.result || null);
       req.onerror = () => resolve(null);
     });
-    if (result) return result;
+    if (result) {
+      if (typeof result === 'string' && result.includes('banhmimore')) {
+        // purge old template reference
+      } else {
+        return result;
+      }
+    }
   } catch {
     // Ignore
   }

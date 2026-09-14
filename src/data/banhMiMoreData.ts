@@ -157,7 +157,7 @@ export const BANH_MI_MORE_MENU: Record<string, MenuItemData[]> = {
   'Bakery Goods': [
     {
       id: 'bg-pate-so',
-      name: 'Pâté Sô (Pâté Chaud)',
+      name: 'Pâté Sô',
       vietnameseName: 'Bánh Pâté Sô',
       category: 'Bakery Goods',
       price: 2.50,
@@ -167,10 +167,10 @@ export const BANH_MI_MORE_MENU: Record<string, MenuItemData[]> = {
     {
       id: 'bg-banh-bao',
       name: 'Bánh Bao',
-      vietnameseName: 'Bánh Bao Thịt & Trứng Cút',
+      vietnameseName: 'Bánh Bao Thịt & Trứng',
       category: 'Bakery Goods',
       price: 2.95,
-      description: 'Steamed fluffy white bun stuffed with savory seasoned pork, wood ear mushrooms, Chinese sausage, and a quail egg.',
+      description: 'Steamed fluffy white bun stuffed with savory seasoned pork, wood ear mushrooms, Chinese sausage, and egg.',
       popular: true,
     },
     {
@@ -692,7 +692,7 @@ export const BANH_MI_MORE_MENU: Record<string, MenuItemData[]> = {
       category: 'Veggies',
       price: 8.00,
       unitText: '$8.00 / lb',
-      description: 'One pound jar of our signature crunchy, sweet and tangy house-pickled daikon radish and carrots.',
+      description: 'One pound box of our signature crunchy, sweet and tangy house-pickled daikon radish and carrots.',
       popular: true,
     },
   ],
@@ -731,7 +731,7 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
   },
   {
     id: 'feat-pate-so',
-    name: 'Pâté Sô (Pâté Chaud)',
+    name: 'Pâté Sô',
     vietnameseName: 'Bánh Pâté Sô Pháp',
     category: 'Bakery Goods',
     price: 2.50,
@@ -768,10 +768,10 @@ export const FEATURED_SLIDER_ITEMS: FeaturedSliderItem[] = [
   {
     id: 'feat-banh-bao',
     name: 'Steamed Bánh Bao',
-    vietnameseName: 'Bánh Bao Thịt Trứng Cút',
+    vietnameseName: 'Bánh Bao Thịt & Trứng',
     category: 'Bakery Goods',
     price: 2.95,
-    description: 'Fluffy steamed bun filled with pork, Chinese sausage, wood ear mushrooms, and savory quail egg.',
+    description: 'Fluffy steamed bun filled with pork, Chinese sausage, wood ear mushrooms, and savory egg.',
     image: '/preview-pateso.jpg',
   },
   {

@@ -30,7 +30,7 @@ const PREVIEW_CATEGORIES: PreviewCategoryCard[] = [
     title: 'Bánh Mì Sandwiches',
     vnTitle: 'Bánh Mì Truyền Thống',
     priceNote: 'From $5.25',
-    defaultImage: '/uploaded/lo_banh_mi_photo_preview_preview-sandwiches.jpg',
+    defaultImage: '/preview-sandwiches.jpg',
     shortDesc: 'Crisp deck-oven baguettes filled with grilled meats, liver pâté, pickled daikon & fresh cilantro.',
   },
   {
@@ -39,7 +39,7 @@ const PREVIEW_CATEGORIES: PreviewCategoryCard[] = [
     title: 'Deck-Oven Baguettes',
     vnTitle: 'Bánh Mì Baguette Nóng Giòn',
     priceNote: '$1.75 ea • 2 for $1 regular • 4 for $1 mini',
-    defaultImage: '/uploaded/lo_banh_mi_photo_preview_preview-baguettes.jpg',
+    defaultImage: '/preview-baguettes.jpg',
     shortDesc: 'Pulled fresh and hot from stone deck ovens all morning. Crackling thin crust and airy crumb.',
   },
   {
@@ -48,7 +48,7 @@ const PREVIEW_CATEGORIES: PreviewCategoryCard[] = [
     title: 'French Croissants',
     vnTitle: 'Bánh Sừng Bò',
     priceNote: 'From $2.50',
-    defaultImage: '/uploaded/lo_banh_mi_photo_preview_preview-croissants.jpg',
+    defaultImage: '/preview-croissants.jpg',
     shortDesc: 'Multi-layered flaky butter croissants, sweet almond pastries, and savory BBQ croissants.',
   },
   {
@@ -57,8 +57,8 @@ const PREVIEW_CATEGORIES: PreviewCategoryCard[] = [
     title: 'Hot Pâté Sô & Bánh Bao',
     vnTitle: 'Bánh Pâté Sô & Bánh Bao',
     priceNote: 'From $2.50',
-    defaultImage: '/uploaded/lo_banh_mi_photo_preview_preview-pateso.jpg',
-    shortDesc: 'Warm buttery puff pastries with seasoned pork, and fluffy steamed buns with quail egg.',
+    defaultImage: '/preview-pateso.jpg',
+    shortDesc: 'Warm buttery puff pastries with seasoned pork, and fluffy steamed buns with egg.',
   },
   {
     id: 'preview-coffee',
@@ -66,7 +66,7 @@ const PREVIEW_CATEGORIES: PreviewCategoryCard[] = [
     title: 'Vietnamese Coffee',
     vnTitle: 'Cà Phê Sữa Đá',
     priceNote: 'From $4.00',
-    defaultImage: '/uploaded/lo_banh_mi_photo_preview_preview-coffee.jpg',
+    defaultImage: '/preview-coffee.jpg',
     shortDesc: 'Authentic slow-dripped Vietnamese dark roast with condensed milk over crushed ice.',
   },
   {
@@ -75,8 +75,8 @@ const PREVIEW_CATEGORIES: PreviewCategoryCard[] = [
     title: 'Deli Meats by the Pound',
     vnTitle: 'Thịt Nguội & Chả Lụa',
     priceNote: 'Sold by the lb',
-    defaultImage: '/uploaded/lo_banh_mi_photo_preview_preview-meats.jpg',
-    shortDesc: 'Take-home lemongrass pork, Vietnamese steamed pork ham (chả lụa), and jars of pickled veggies.',
+    defaultImage: '/preview-meats.jpg',
+    shortDesc: 'Take-home lemongrass pork, Vietnamese steamed pork ham (chả lụa), and box of pickled veggies.',
   },
 ];
 

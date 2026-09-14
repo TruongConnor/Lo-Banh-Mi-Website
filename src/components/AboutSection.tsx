@@ -57,7 +57,7 @@ export const AboutSection: React.FC = () => {
                 { icon: Sparkles, title: 'Crispy Crust', desc: 'Airy, feather crumb' },
                 { icon: UtensilsCrossed, title: 'Secret Pâté', desc: 'House liver spread' },
                 { icon: Clock, title: 'Baked Daily', desc: 'Deck oven batches' },
-                { icon: HeartHandshake, title: '100% Heart', desc: 'Saigon hospitality' },
+                { icon: HeartHandshake, title: '100% Heart', desc: 'Vietnamese hospitality' },
               ].map((item, index) => {
                 const Icon = item.icon;
                 return (

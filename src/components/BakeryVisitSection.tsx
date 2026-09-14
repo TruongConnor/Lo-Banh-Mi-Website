@@ -127,7 +127,7 @@ export const BakeryVisitSection: React.FC<BakeryVisitSectionProps> = ({ onOpenMe
                   (817) 275-8868
                 </h3>
                 <p className="text-sm text-[#0b192e]/70 leading-relaxed mb-4">
-                  No online accounts needed — simply stop by in person or call ahead if you need dozens of fresh baguettes, lunch boxes, or party catering platters.
+                  Simply stop by in person or call ahead if you need dozens of fresh baguettes, lunch boxes, or party catering platters.
                 </p>
 
                 <div className="space-y-2 mb-6 text-xs text-[#0b192e]/80">
